@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.wear.widget.BoxInsetLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/LightRed"
     android:layout_width="match_parent"
@@ -10,7 +9,7 @@
     tools:deviceIds="wear"
     android:padding="@dimen/box_inset_layout_padding">
 
-    <com.estimote.indoorsdk.view.IndoorLocationView
+    <com.estimote.indoorsdk_module.view.IndoorLocationView
         android:id="@+id/indoor_view"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
