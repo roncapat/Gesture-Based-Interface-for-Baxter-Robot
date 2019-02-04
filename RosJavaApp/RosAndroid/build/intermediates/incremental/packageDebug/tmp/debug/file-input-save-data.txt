@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Feb 04 18:35:57 CET 2019
+0.baseType=DIRECTORY
+0.base=/home/federico/Scrivania/RosJavaApp/RosAndroid/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
