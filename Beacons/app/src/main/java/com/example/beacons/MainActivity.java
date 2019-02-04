@@ -18,8 +18,9 @@ import com.estimote.indoorsdk_module.view.IndoorLocationView;
 import org.jetbrains.annotations.NotNull;
 
 public class MainActivity extends WearableActivity {
-    ScanningIndoorLocationManager indoorLocationManager;
-    IndoorLocationView indoorView = (IndoorLocationView) findViewById(R.id.indoor_view);
+    public ScanningIndoorLocationManager indoorLocationManager;
+    IndoorLocationView indoorView;
+    Location location = new Location();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +32,11 @@ public class MainActivity extends WearableActivity {
                 new EstimoteCloudCredentials("laboratorium-dibris-gmail--kfg", "90e1b9d8344624e9c2cd42b9f5fd6392"));
         cloudManager.getLocation("luogo", new CloudCallback<Location>() {
             @Override
-            public void success(Location location) {
-                // store the Location object for later,
-                // you will need it to initialize the IndoorLocationManager!
-                indoorView.setLocation(location);
-                indoorLocationManager =
-                        //controllare il this
+            public void success(Location loc) {
+                location = loc;
+                indoorView = findViewById(R.id.indoor_view);
+                indoorView.setLocation(loc);
+                ScanningIndoorLocationManager indoorLocationManager =
                         new IndoorLocationManagerBuilder(getApplicationContext(), location,
                                 new EstimoteCloudCredentials("laboratorium-dibris-gmail--kfg", "90e1b9d8344624e9c2cd42b9f5fd6392"))
                                 .withDefaultScanner()
@@ -55,7 +55,7 @@ public class MainActivity extends WearableActivity {
                         indoorView.hidePosition();
                     }
                 });
-
+                indoorLocationManager.startPositioning();
             }
 
             @Override
@@ -63,17 +63,21 @@ public class MainActivity extends WearableActivity {
 
             }
         });
+
+
+
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        indoorLocationManager.startPositioning();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        indoorLocationManager.stopPositioning();
+        if (indoorLocationManager != null)
+            indoorLocationManager.stopPositioning();
     }
+
 }
