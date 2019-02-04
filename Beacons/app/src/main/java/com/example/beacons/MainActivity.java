@@ -2,12 +2,9 @@ package com.example.beacons;
 
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.estimote.indoorsdk.EstimoteCloudCredentials;
 import com.estimote.indoorsdk.IndoorLocationManagerBuilder;
-import com.estimote.indoorsdk_module.algorithm.IndoorLocationManager;
 import com.estimote.indoorsdk_module.algorithm.OnPositionUpdateListener;
 import com.estimote.indoorsdk_module.algorithm.ScanningIndoorLocationManager;
 import com.estimote.indoorsdk_module.cloud.CloudCallback;
