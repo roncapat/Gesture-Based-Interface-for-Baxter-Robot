@@ -1,0 +1,1 @@
+Fatta partire devo connetterla a un ROS master che gira in rete (wifi) e poi uso /chatter e /rosout topics per verificare gli output
