@@ -2,18 +2,16 @@
 <package>
 	<name>beacons_presence_scanner</name>
 	<version>0.0.0</version>
-	<description>La</description>
+	<description>Beacons presence scanner package</description>
 
-	<maintainer email="marco.lapolla5@gmail.com">Marco Lapolla</maintainer>
-	<maintainer email="marta.lago@hotmail.it">Marta Lagomarsino</maintainer>
+	<maintainer email="lucre.grassi@gmail.com">Lucrezia Grassi</maintainer>
 
-	<license>GNU</license>
+	<license>GPLv3</license>
 
-	<author email="marco.lapolla5@gmail.com">Marco Lapolla</author>
-	<author email="marta.lago@hotmail.it">Marta Lagomarsino</author>
+	<author email="lucre.grassi@gmail.com">Lucrezia Grassi</author>
 
 	<buildtool_depend>catkin</buildtool_depend>
-	
+
 	<build_depend>roscpp</build_depend>
 	<build_depend>rospy</build_depend>
 	<build_depend>sensor_msgs</build_depend>
@@ -29,7 +27,6 @@
 	<run_depend>geometry_msgs</run_depend>
 	<run_depend>message_runtime</run_depend>
 	
-
 	<export>
 		<!-- Other tools can request additional information be placed here -->
 	</export>

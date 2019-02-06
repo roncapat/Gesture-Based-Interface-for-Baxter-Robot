@@ -27,17 +27,18 @@ int main(int argc, char **argv){
     ros::init(argc, argv, "beacons_scanner");
     ros::NodeHandle n("~"); 
     int beacons_number; 
+    int min_beacons;
     std::string beacon_color[3]; 
     
     std::stringstream topics[3];
     ros::Subscriber subs[3];
-    bool ok = true;
     
     p[0] = callBack1;
 		p[1] = callBack2; 
 		p[2] = callBack3; 
     
     n.param<int>("beacons_number", beacons_number, 2);
+    n.param<int>("min_beacons", min_beacons, 2);
     n.param<std::string>("beacon_color_1", beacon_color[0], "pink");
     n.param<std::string>("beacon_color_2", beacon_color[1], "yellow");
     n.param<std::string>("beacon_color_3", beacon_color[2], "violet");
@@ -45,30 +46,32 @@ int main(int argc, char **argv){
 		ros::NodeHandle nh;
 		for(int i = 0; i < beacons_number; i++){
 			topics[i] <<"/beacon/" << beacon_color[i] << "/presence";
-			subs[i] = nh.subscribe(topics[i].str(), 10, p[i]);
+			subs[i] = nh.subscribe(topics[i].str(), 1, p[i]);
 		}
 		
     ros::Publisher pub = nh.advertise<std_msgs::Header>("/beacons/presence", 1); 
     ros::Rate loop_rate(100);
 		
 		std_msgs::Header msg;
+		int count = 0;
 		
     while (ros::ok()){
-				ok = true;
-				
+				count = 0;
 				for(int i = 0; i < beacons_number; i++){
-					ok &= presences[i];
+					if(presences[i]) count++;
+					ROS_INFO("%d", count);
+					if(count == min_beacons){
+						msg.stamp = ros::Time::now();
+						pub.publish(msg);
+						ROS_INFO("%d", count);
+						break;
+					}
 				}
 				
-				if(ok){
-					msg.stamp = ros::Time::now();
-					pub.publish(msg);
-				}
-				
-				// reset the elements of presences to false
+				//reset the elements of presences to false
 				for(int i = 0; i < beacons_number; i++)
 						presences[i] = false;
-						
+				
         ros::spinOnce();
         loop_rate.sleep();
     }
