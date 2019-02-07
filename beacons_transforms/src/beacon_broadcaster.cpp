@@ -17,12 +17,12 @@
  */
  
 
-/** @brief Class to implement Background Segmentation
+/** @brief Class to set a flight the circle of the beacon when presence is detected
  * 
  */
 class Beacon_Radius{
     /** Handler:
-     * - subscribe to /beacon_<color>/presence to light the sphere in case of presence
+     * - subscribe to /beacon_<color>/presence to get when the beacon has detected presence
      */
   public:
     
@@ -35,15 +35,14 @@ class Beacon_Radius{
 		presence = false;
 	}
 	/**
-	 * Point cloud callback function:
-	 *  - remove the background associated to the current Kinect angle from the /camera/depth/points
-	 *  - publish filtered points cloud in /camera/pcl_background_segmentation
-	 * @param[in]	input	point cloud data from the Kinect
+	 * Callback function to set presence flag to true
 	 */
 	void beaconCB(const std_msgs::Empty& input){
 		presence = true;
 	}
-
+	/**
+	 * Metod to reset the presence flag to false
+	 */
 	void reset(){
 		presence = false;
 	}
@@ -53,12 +52,15 @@ class Beacon_Radius{
     ros::Subscriber sub;  /**< Subscriber to /beacon_<color>/presence */
 };
 
-double x_beacon = 0.0;
-double y_beacon = 0.0;
-double z_beacon = 0.0;
+double x_beacon = 0.0; /**<x coordinate of the beacon with respect to the control board */
+double y_beacon = 0.0; /**<y coordinate of the beacon with respect to the control board */
+double z_beacon = 0.0; /**<z coordinate of the beacon with respect to the control board */
 
-double radius_presence = 1.0;
+double radius_presence = 1.0; /**<Radius of the circle into which the beacon signals presence */
 
+/**
+ * Service to change the position of the beacon
+ */
 bool move(beacons_transforms::MoveBeacon::Request  &req,
          beacons_transforms::MoveBeacon::Response &res)
 {
@@ -68,7 +70,9 @@ bool move(beacons_transforms::MoveBeacon::Request  &req,
 	res.result = true;
 	return true;
 }
-
+/**
+ * Service to set the radius in which the beacon signals presence
+ */
 bool set_radius(beacons_transforms::SetRadius::Request  &req,
          beacons_transforms::SetRadius::Response &res)
 {
@@ -77,7 +81,9 @@ bool set_radius(beacons_transforms::SetRadius::Request  &req,
 	res.result = true;
 	return true;
 }
-
+/**
+ * Function to assign a unique hash to each beacon
+ */
 int color_hash(std::string c){
 	int ret = 0;
 	
@@ -89,17 +95,29 @@ int color_hash(std::string c){
 	return ret;
 }
 
-
 /**
- * Main function: 
- * a TF broadcaster is created in order to add the world frame to the tree. The world frame is in correspondence of the control board and it has the same orientation of the Kinect.
+ * Main:
+ * - initialization of the parameters
+	 * @param[in]  x_beacon  x coordinate of the beacon with respect to the control board
+	 * @param[in]  y_beacon    y coordinate of the beacon with respect to the control board
+	 * @param[in]  z_beacon    z coordinate of the beacon with respect to the control board
+	 * @param[in]  radius_presence    radius into which the beacon signals presence
+	 * @param[in]  beacon_color    color which identifies the beacon
+	 * @param[in]  beacon_hash    hash of the beacon 
+ * 
+ * - advertise Services:
+	* move_beacon: to move the position of the beacon
+	* set_beacon_radius: to set the radius into which the beacon signals presence
+ *
+ * - publish on /beacon_radius the current radius into which the beacon detects presence
+ * - publish on /beacon_radius_rviz to display on rviz of circle into which the beacon signals presence
  */
 main(int argc, char** argv)
 {
     ros::init(argc, argv, "beacon_broadcaster");
 	ros::NodeHandle n("~");
 	
-	// position of the Kinect with respect to the control board
+	// position of the beacons with respect to the control board
 	n.param<double>("x_beacon", x_beacon, 0.0);
 	n.param<double>("y_beacon", y_beacon, 0.0);
 	n.param<double>("z_beacon", z_beacon, 0.0);
@@ -132,6 +150,7 @@ main(int argc, char** argv)
 	beacons_transforms::BeaconRadius msg;
 	msg.beacon_name = beacon_full_name.str();
 	
+	// Display on rviz of circle in which the beacon signals presence
 	visualization_msgs::Marker msg_for_rviz_visualization;
 	msg_for_rviz_visualization.header.frame_id = beacon_full_name.str();
 	msg_for_rviz_visualization.ns = "beacons";
@@ -148,6 +167,7 @@ main(int argc, char** argv)
 
 	int r_beacon, g_beacon, b_beacon;
 	sscanf(beacon_hash.c_str(), "%02x%02x%02x", &r_beacon, &g_beacon, &b_beacon);
+	
 	msg_for_rviz_visualization.color.a = 0.2; 		//Opacity
 	msg_for_rviz_visualization.color.r = r_beacon;
 	msg_for_rviz_visualization.color.g = g_beacon;
@@ -160,6 +180,7 @@ main(int argc, char** argv)
 		msg.radius = radius_presence;
 		beacon_pub.publish(msg);
 		
+		// light the circle of the beacon when presence is detected
 		if(beacon_radius.presence){
 			msg_for_rviz_visualization.color.a = 0.8; 		//Opacity
 		}
@@ -170,13 +191,16 @@ main(int argc, char** argv)
 		msg_for_rviz_visualization.header.stamp = ros::Time();
 		msg_for_rviz_visualization.scale.x = radius_presence;
 		msg_for_rviz_visualization.scale.y = radius_presence;
-		msg_for_rviz_visualization.scale.z = 0.1;
+		msg_for_rviz_visualization.scale.z = 0.1; //height of the cilinder
 		beacon_radius_rviz.publish(msg_for_rviz_visualization);
 		
+		// Trasformation from world frame to beacon frame
 		change_frame.setOrigin(tf::Vector3(x_beacon, y_beacon, z_beacon));
 		broadcaster.sendTransform(tf::StampedTransform(change_frame, ros::Time::now(), "world_frame", beacon_full_name.str()));
 		
+		// Metod to reset the presence flag to false
 		beacon_radius.reset();
+		
 		ros::spinOnce();
 		r.sleep();
 	}
