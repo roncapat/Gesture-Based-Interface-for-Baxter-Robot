@@ -17,16 +17,16 @@
  */
  
 
-/** @brief Class to set a flight the circle of the beacon when presence is detected
+/** @brief Class to set a flag when presence is detected
  * 
  */
 class Beacon_Radius{
     /** Handler:
-     * - subscribe to /beacon_<color>/presence to get when the beacon has detected presence
+     * - subscribe to /beacon_<color>/presence to know when the beacon has detected presence
      */
   public:
     
-	bool presence;
+	bool presence; /**< Flag to signal that presence is detected */
 	
 	Beacon_Radius(std::string beacon_color){
 		std::stringstream beacon_full_sub;
