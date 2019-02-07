@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/devel
+
+Name: rosjava_bootstrap
+Description: Description of rosjava_bootstrap
+Version: 0.3.3
+Cflags: 
+Libs: -L/home/federico/rosjava/devel/lib 
+Requires: 

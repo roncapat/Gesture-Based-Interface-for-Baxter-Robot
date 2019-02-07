@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/install
+
+Name: genjava
+Description: Description of genjava
+Version: 0.3.4
+Cflags: 
+Libs: -L/home/federico/rosjava/install/lib 
+Requires: genmsg rosjava_build_tools

@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/install
+
+Name: zeroconf_jmdns_suite
+Description: Description of zeroconf_jmdns_suite
+Version: 0.3.1
+Cflags: 
+Libs: -L/home/federico/rosjava/install/lib 
+Requires: 

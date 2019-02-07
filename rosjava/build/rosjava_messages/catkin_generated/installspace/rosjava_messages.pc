@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/install
+
+Name: rosjava_messages
+Description: Description of rosjava_messages
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/federico/rosjava/install/lib 
+Requires: 

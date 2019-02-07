@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/install
+
+Name: rosjava_build_tools
+Description: Description of rosjava_build_tools
+Version: 0.3.3
+Cflags: 
+Libs: -L/home/federico/rosjava/install/lib 
+Requires: 

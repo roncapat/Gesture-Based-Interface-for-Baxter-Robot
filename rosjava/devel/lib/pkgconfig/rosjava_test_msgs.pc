@@ -1,0 +1,8 @@
+prefix=/home/federico/rosjava/devel
+
+Name: rosjava_test_msgs
+Description: Description of rosjava_test_msgs
+Version: 0.3.0
+Cflags: -I/home/federico/rosjava/devel/include
+Libs: -L/home/federico/rosjava/devel/lib 
+Requires: message_runtime std_msgs
