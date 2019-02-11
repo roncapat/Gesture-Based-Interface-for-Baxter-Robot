@@ -1,2 +1,2 @@
-android_core:genjava:rosjava:rosjava_bootstrap:rosjava_build_tools:rosjava_catkin_package_a:rosjava_core:rosjava_extras:rosjava_messages:rosjava_pkg:rosjava_test_msgs:zeroconf_jmdns_suite
--DCATKIN_DEVEL_PREFIX=/home/federico/rosjava/devel -DCMAKE_INSTALL_PREFIX=/home/federico/rosjava/install -G Unix Makefiles
+android_core:rosjava_catkin_package_a
+-DCATKIN_DEVEL_PREFIX=/home/lucrezia/sofar_ws/src/rosjava/devel -DCMAKE_INSTALL_PREFIX=/home/lucrezia/sofar_ws/src/rosjava/install -G Unix Makefiles
