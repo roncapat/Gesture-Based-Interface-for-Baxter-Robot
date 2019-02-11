@@ -1,0 +1,27 @@
+[submodule "rosjava/src/genjava"]
+	path = rosjava/src/genjava
+	url = https://github.com/rosjava/genjava
+[submodule "rosjava/src/rosjava_bootstrap"]
+	path = rosjava/src/rosjava_bootstrap
+	url = https://github.com/rosjava/rosjava_bootstrap
+[submodule "rosjava/src/rosjava"]
+	path = rosjava/src/rosjava
+	url = https://github.com/rosjava/rosjava
+[submodule "rosjava/src/rosjava_build_tools"]
+	path = rosjava/src/rosjava_build_tools
+	url = https://github.com/rosjava/rosjava_build_tools
+[submodule "rosjava/src/rosjava_core"]
+	path = rosjava/src/rosjava_core
+	url = https://github.com/rosjava/rosjava_core
+[submodule "rosjava/src/rosjava_messages"]
+	path = rosjava/src/rosjava_messages
+	url = https://github.com/rosjava/rosjava_messages
+[submodule "rosjava/src/zeroconf_jmdns_suite"]
+	path = rosjava/src/zeroconf_jmdns_suite
+	url = https://github.com/rosjava/zeroconf_jmdns_suite
+[submodule "rosjava/src/rosjava_test_msgs"]
+	path = rosjava/src/rosjava_test_msgs
+	url = https://github.com/rosjava/rosjava_test_msgs
+[submodule "rosjava/src/android_extras"]
+	path = rosjava/src/android_extras
+	url = https://github.com/rosjava/android_extras
