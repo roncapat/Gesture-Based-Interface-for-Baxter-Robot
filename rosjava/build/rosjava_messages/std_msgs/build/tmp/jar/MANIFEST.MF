@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Created-By: 10.0.2 (Oracle Corporation)
 Tool: Bnd-3.4.0.201707252008
-Bnd-LastModified: 1549371717479
+Bnd-LastModified: 1549885188786
 Export-Package: std_msgs;version="0.5.11";uses:="org.jboss.netty.buffe
  r,org.ros.internal.message,org.ros.message"
 Import-Package: org.jboss.netty.buffer;version="[3.5,4)",org.ros.inter

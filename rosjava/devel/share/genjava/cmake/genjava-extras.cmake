@@ -1,5 +1,5 @@
 # location of scripts in develspace
-set(GENJAVA_BIN_DIR "/home/federico/rosjava/src/genjava/scripts")
+set(GENJAVA_BIN_DIR "/home/lucrezia/sofar_ws/src/rosjava/src/genjava/scripts")
 
 set(GENJAVA_BIN ${GENJAVA_BIN_DIR}/genjava_gradle_project.py)
 set(genjava_INSTALL_DIR "maven/org/ros/rosjava_messages")

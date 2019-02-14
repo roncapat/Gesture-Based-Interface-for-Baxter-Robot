@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/zeroconf_jmdns_suite
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/zeroconf_jmdns_suite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/federico/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suite.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suite.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zeroconf_jmdns_suite/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suiteConfig.cmake"
-    "/home/federico/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suiteConfig-version.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suiteConfig.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite/catkin_generated/installspace/zeroconf_jmdns_suiteConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zeroconf_jmdns_suite" TYPE FILE FILES "/home/federico/rosjava/src/zeroconf_jmdns_suite/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/zeroconf_jmdns_suite" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/zeroconf_jmdns_suite/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/com/github/rosjava/zeroconf_jmdns_suite" TYPE DIRECTORY FILES "/home/federico/rosjava/devel/share/maven/com/github/rosjava/zeroconf_jmdns_suite/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/com/github/rosjava/zeroconf_jmdns_suite" TYPE DIRECTORY FILES "/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven/com/github/rosjava/zeroconf_jmdns_suite/")
 endif()
 

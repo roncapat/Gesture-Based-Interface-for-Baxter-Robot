@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for gradle-clean-android_core.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/federico/rosjava/build
 include android_core/CMakeFiles/gradle-clean-android_core.dir/progress.make
 
 android_core/CMakeFiles/gradle-clean-android_core:
-	cd /home/federico/rosjava/src/android_core && /home/federico/rosjava/build/catkin_generated/env_cached.sh /home/federico/rosjava/src/android_core/gradlew clean
+	cd /home/lucrezia/sofar_ws/src/rosjava/src/android_core && /home/lucrezia/sofar_ws/src/rosjava/build/catkin_generated/env_cached.sh /home/lucrezia/sofar_ws/src/rosjava/src/android_core/gradlew clean
 
 gradle-clean-android_core: android_core/CMakeFiles/gradle-clean-android_core
 gradle-clean-android_core: android_core/CMakeFiles/gradle-clean-android_core.dir/build.make
@@ -67,10 +67,10 @@ android_core/CMakeFiles/gradle-clean-android_core.dir/build: gradle-clean-androi
 .PHONY : android_core/CMakeFiles/gradle-clean-android_core.dir/build
 
 android_core/CMakeFiles/gradle-clean-android_core.dir/clean:
-	cd /home/federico/rosjava/build/android_core && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-android_core.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/android_core && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-android_core.dir/cmake_clean.cmake
 .PHONY : android_core/CMakeFiles/gradle-clean-android_core.dir/clean
 
 android_core/CMakeFiles/gradle-clean-android_core.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/android_core /home/federico/rosjava/build /home/federico/rosjava/build/android_core /home/federico/rosjava/build/android_core/CMakeFiles/gradle-clean-android_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/android_core /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/android_core /home/lucrezia/sofar_ws/src/rosjava/build/android_core/CMakeFiles/gradle-clean-android_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : android_core/CMakeFiles/gradle-clean-android_core.dir/depend
 

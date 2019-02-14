@@ -2,7 +2,7 @@
 DEVELSPACE = 'TRUE' == 'TRUE'
 INSTALLSPACE = 'FALSE' == 'TRUE'
 
-CATKIN_DEVEL_PREFIX = '/home/federico/rosjava/devel'
+CATKIN_DEVEL_PREFIX = '/home/lucrezia/sofar_ws/src/rosjava/devel'
 
 CATKIN_GLOBAL_BIN_DESTINATION = 'bin'
 CATKIN_GLOBAL_ETC_DESTINATION = 'etc'
@@ -20,14 +20,14 @@ CATKIN_PACKAGE_LIBEXEC_DESTINATION = ''
 CATKIN_PACKAGE_PYTHON_DESTINATION = 'lib/python2.7/dist-packages/genjava'
 CATKIN_PACKAGE_SHARE_DESTINATION = 'share/genjava'
 
-CMAKE_BINARY_DIR = '/home/federico/rosjava/build'
-CMAKE_CURRENT_BINARY_DIR = '/home/federico/rosjava/build/genjava'
-CMAKE_CURRENT_SOURCE_DIR = '/home/federico/rosjava/src/genjava'
-CMAKE_INSTALL_PREFIX = '/home/federico/rosjava/install'
-CMAKE_SOURCE_DIR = '/home/federico/rosjava/src'
+CMAKE_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build'
+CMAKE_CURRENT_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build/genjava'
+CMAKE_CURRENT_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src/genjava'
+CMAKE_INSTALL_PREFIX = '/home/lucrezia/sofar_ws/src/rosjava/install'
+CMAKE_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src'
 
-PKG_CMAKE_DIR = '/home/federico/rosjava/devel/share/genjava/cmake'
+PKG_CMAKE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/devel/share/genjava/cmake'
 
 PROJECT_NAME = 'genjava'
-PROJECT_BINARY_DIR = '/home/federico/rosjava/build/genjava'
-PROJECT_SOURCE_DIR = '/home/federico/rosjava/src/genjava'
+PROJECT_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build/genjava'
+PROJECT_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src/genjava'

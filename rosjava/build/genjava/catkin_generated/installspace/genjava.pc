@@ -1,8 +1,8 @@
-prefix=/home/federico/rosjava/install
+prefix=/home/lucrezia/sofar_ws/src/rosjava/install
 
 Name: genjava
 Description: Description of genjava
 Version: 0.3.4
 Cflags: 
-Libs: -L/home/federico/rosjava/install/lib 
+Libs: -L/home/lucrezia/sofar_ws/src/rosjava/install/lib 
 Requires: genmsg rosjava_build_tools

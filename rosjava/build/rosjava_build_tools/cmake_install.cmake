@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/rosjava_build_tools
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,53 +38,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_tools.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_tools.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools/cmake" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools/cmake" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_toolsConfig.cmake"
-    "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_toolsConfig-version.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_toolsConfig.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/rosjava_build_toolsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE FILE FILES "/home/federico/rosjava/src/rosjava_build_tools/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/safe_execute_install.cmake")
+  include("/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/15.rosjava.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/15.rosjava.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_build_tools/catkin_generated/installspace/15.rosjava.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/catkin/profile.d" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools/catkin_generated/installspace/15.rosjava.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rosjava_build_tools/gradle" TYPE PROGRAM FILES "/home/federico/rosjava/src/rosjava_build_tools/src/rosjava_build_tools/gradle/gradlew")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rosjava_build_tools/gradle" TYPE PROGRAM FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools/src/rosjava_build_tools/gradle/gradlew")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rosjava_build_tools/gradle" TYPE DIRECTORY FILES "/home/federico/rosjava/src/rosjava_build_tools/src/rosjava_build_tools/gradle/gradle")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/rosjava_build_tools/gradle" TYPE DIRECTORY FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools/src/rosjava_build_tools/gradle/gradle")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE PROGRAM FILES "/home/federico/rosjava/src/rosjava_build_tools/generate_environment_variables.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE PROGRAM FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools/generate_environment_variables.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE FILE FILES "/home/federico/rosjava/src/rosjava_build_tools/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_build_tools" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven" TYPE FILE FILES "/home/federico/rosjava/devel/share/maven/rospack_nosubdirs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven/rospack_nosubdirs")
 endif()
 

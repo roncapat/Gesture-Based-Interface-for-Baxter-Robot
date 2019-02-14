@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/rosjava_core
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_core.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_core.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_core/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_coreConfig.cmake"
-    "/home/federico/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_coreConfig-version.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_coreConfig.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core/catkin_generated/installspace/rosjava_coreConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_core" TYPE FILE FILES "/home/federico/rosjava/src/rosjava_core/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_core" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/org/ros/rosjava_core" TYPE DIRECTORY FILES "/home/federico/rosjava/devel/share/maven/org/ros/rosjava_core/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/org/ros/rosjava_core" TYPE DIRECTORY FILES "/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven/org/ros/rosjava_core/")
 endif()
 

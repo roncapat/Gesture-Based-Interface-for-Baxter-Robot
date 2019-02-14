@@ -1,5 +1,5 @@
 # location of scripts in develspace
-  set(GENJAVA_MESSAGE_ARTIFACTS_BIN_DIR "/home/federico/rosjava/src/genjava/scripts")
+  set(GENJAVA_MESSAGE_ARTIFACTS_BIN_DIR "/home/lucrezia/sofar_ws/src/rosjava/src/genjava/scripts")
 
 set(GENJAVA_MESSAGE_ARTIFACTS_BIN ${GENJAVA_MESSAGE_ARTIFACTS_BIN_DIR}/genjava_message_artifacts)
 set(genjava_INSTALL_DIR "maven/org/ros/rosjava_messages")

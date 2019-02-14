@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/federico/rosjava/build/CMakeFiles /home/federico/rosjava/build/rosjava_messages/CMakeFiles/progress.marks
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/rosjava/build/CMakeFiles 0
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_messages/CMakeFiles/progress.marks
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/clean
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/preinstall
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/preinstall
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/rule:
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/rule
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/rule
 .PHONY : rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ rosjava_messages_generate_artifacts: rosjava_messages/CMakeFiles/rosjava_message
 
 # fast build rule for target.
 rosjava_messages_generate_artifacts/fast:
-	cd /home/federico/rosjava/build && $(MAKE) -f rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/build.make rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/build
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/build.make rosjava_messages/CMakeFiles/rosjava_messages_generate_artifacts.dir/build
 .PHONY : rosjava_messages_generate_artifacts/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

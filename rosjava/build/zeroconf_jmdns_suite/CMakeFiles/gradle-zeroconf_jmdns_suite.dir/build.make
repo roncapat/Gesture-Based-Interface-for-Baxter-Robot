@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for gradle-zeroconf_jmdns_suite.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/federico/rosjava/build
 include zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/progress.make
 
 zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for zeroconf_jmdns_suite"
-	cd /home/federico/rosjava/src/zeroconf_jmdns_suite && ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/federico/rosjava/build/catkin_generated/env_cached.sh /home/federico/rosjava/src/zeroconf_jmdns_suite/gradlew -q publish installDist
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for zeroconf_jmdns_suite"
+	cd /home/lucrezia/sofar_ws/src/rosjava/src/zeroconf_jmdns_suite && ROS_MAVEN_DEPLOYMENT_REPOSITORY=/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/lucrezia/sofar_ws/src/rosjava/build/catkin_generated/env_cached.sh /home/lucrezia/sofar_ws/src/rosjava/src/zeroconf_jmdns_suite/gradlew -q publish installDist
 
 gradle-zeroconf_jmdns_suite: zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite
 gradle-zeroconf_jmdns_suite: zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/build.make
@@ -68,10 +68,10 @@ zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/build: gradle-ze
 .PHONY : zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/build
 
 zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/clean:
-	cd /home/federico/rosjava/build/zeroconf_jmdns_suite && $(CMAKE_COMMAND) -P CMakeFiles/gradle-zeroconf_jmdns_suite.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite && $(CMAKE_COMMAND) -P CMakeFiles/gradle-zeroconf_jmdns_suite.dir/cmake_clean.cmake
 .PHONY : zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/clean
 
 zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/zeroconf_jmdns_suite /home/federico/rosjava/build /home/federico/rosjava/build/zeroconf_jmdns_suite /home/federico/rosjava/build/zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/zeroconf_jmdns_suite /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite /home/lucrezia/sofar_ws/src/rosjava/build/zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : zeroconf_jmdns_suite/CMakeFiles/gradle-zeroconf_jmdns_suite.dir/depend
 

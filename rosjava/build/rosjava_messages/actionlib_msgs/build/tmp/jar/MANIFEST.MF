@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Created-By: 10.0.2 (Oracle Corporation)
 Tool: Bnd-3.4.0.201707252008
-Bnd-LastModified: 1549371720763
+Bnd-LastModified: 1549885200176
 Export-Package: actionlib_msgs;version="1.12.7";uses:="org.ros.interna
  l.message,org.ros.message,std_msgs"
 Import-Package: org.ros.internal.message,org.ros.message,std_msgs;vers

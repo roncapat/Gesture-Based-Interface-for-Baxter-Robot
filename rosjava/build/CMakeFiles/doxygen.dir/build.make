@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src /home/federico/rosjava/build /home/federico/rosjava/build /home/federico/rosjava/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

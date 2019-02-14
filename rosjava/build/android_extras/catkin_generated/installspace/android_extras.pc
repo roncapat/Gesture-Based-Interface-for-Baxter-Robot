@@ -1,0 +1,8 @@
+prefix=/home/lucrezia/sofar_ws/src/rosjava/install
+
+Name: android_extras
+Description: Description of android_extras
+Version: 0.3.1
+Cflags: 
+Libs: -L/home/lucrezia/sofar_ws/src/rosjava/install/lib 
+Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/rosjava_messages
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_messages
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/federico/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messages.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messages.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_messages/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messagesConfig.cmake"
-    "/home/federico/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messagesConfig-version.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messagesConfig.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_messages/catkin_generated/installspace/rosjava_messagesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_messages" TYPE FILE FILES "/home/federico/rosjava/src/rosjava_messages/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava_messages" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_messages/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/org/ros/rosjava_messages" TYPE DIRECTORY FILES "/home/federico/rosjava/devel/share/maven/org/ros/rosjava_messages/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/maven/org/ros/rosjava_messages" TYPE DIRECTORY FILES "/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven/org/ros/rosjava_messages/")
 endif()
 

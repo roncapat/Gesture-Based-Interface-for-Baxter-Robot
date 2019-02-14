@@ -43,79 +43,79 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for rosjava_test_msgs_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/progress.make
 
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js
-rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js
+rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js
 
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/Composite.msg
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rosjava_test_msgs/Composite.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/Composite.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestString.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from rosjava_test_msgs/TestString.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestString.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from rosjava_test_msgs/CompositeB.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestPrimitives.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from rosjava_test_msgs/TestPrimitives.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestPrimitives.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from rosjava_test_msgs/CompositeA.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from rosjava_test_msgs/CompositeA.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/TestPrimitives.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from rosjava_test_msgs/TestPrimitives.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/TestPrimitives.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from rosjava_test_msgs/CompositeB.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/TestArrays.msg
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/TestString.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from rosjava_test_msgs/TestArrays.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/TestArrays.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestHeader.msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from rosjava_test_msgs/TestHeader.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestHeader.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/TestString.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from rosjava_test_msgs/TestString.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/TestString.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestArrays.msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestString.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Javascript code from rosjava_test_msgs/TestArrays.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/TestArrays.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /home/federico/rosjava/src/rosjava_test_msgs/msg/TestHeader.msg
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from rosjava_test_msgs/TestHeader.msg"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/msg/TestHeader.msg -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/Composite.msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeA.msg
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/CompositeB.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from rosjava_test_msgs/Composite.msg"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg/Composite.msg -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg
 
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
-/home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js: /home/federico/rosjava/src/rosjava_test_msgs/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from rosjava_test_msgs/AddTwoInts.srv"
-	cd /home/federico/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/federico/rosjava/src/rosjava_test_msgs/srv/AddTwoInts.srv -Irosjava_test_msgs:/home/federico/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from rosjava_test_msgs/AddTwoInts.srv"
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/srv/AddTwoInts.srv -Irosjava_test_msgs:/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p rosjava_test_msgs -o /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv
 
 rosjava_test_msgs_generate_messages_nodejs: rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js
-rosjava_test_msgs_generate_messages_nodejs: /home/federico/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestString.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestPrimitives.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeA.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/CompositeB.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestHeader.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/TestArrays.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/msg/Composite.js
+rosjava_test_msgs_generate_messages_nodejs: /home/lucrezia/sofar_ws/src/rosjava/devel/share/gennodejs/ros/rosjava_test_msgs/srv/AddTwoInts.js
 rosjava_test_msgs_generate_messages_nodejs: rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/build.make
 
 .PHONY : rosjava_test_msgs_generate_messages_nodejs
@@ -126,10 +126,10 @@ rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/buil
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/build
 
 rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/federico/rosjava/build/rosjava_test_msgs && $(CMAKE_COMMAND) -P CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && $(CMAKE_COMMAND) -P CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/clean
 
 rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/rosjava_test_msgs /home/federico/rosjava/build /home/federico/rosjava/build/rosjava_test_msgs /home/federico/rosjava/build/rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_generate_messages_nodejs.dir/depend
 

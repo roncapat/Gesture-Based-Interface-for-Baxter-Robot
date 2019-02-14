@@ -2,7 +2,7 @@
 DEVELSPACE = 'FALSE' == 'TRUE'
 INSTALLSPACE = 'TRUE' == 'TRUE'
 
-CATKIN_DEVEL_PREFIX = '/home/federico/rosjava/devel'
+CATKIN_DEVEL_PREFIX = '/home/lucrezia/sofar_ws/src/rosjava/devel'
 
 CATKIN_GLOBAL_BIN_DESTINATION = 'bin'
 CATKIN_GLOBAL_ETC_DESTINATION = 'etc'
@@ -20,14 +20,14 @@ CATKIN_PACKAGE_LIBEXEC_DESTINATION = ''
 CATKIN_PACKAGE_PYTHON_DESTINATION = 'lib/python2.7/dist-packages/rosjava_build_tools'
 CATKIN_PACKAGE_SHARE_DESTINATION = 'share/rosjava_build_tools'
 
-CMAKE_BINARY_DIR = '/home/federico/rosjava/build'
-CMAKE_CURRENT_BINARY_DIR = '/home/federico/rosjava/build/rosjava_build_tools'
-CMAKE_CURRENT_SOURCE_DIR = '/home/federico/rosjava/src/rosjava_build_tools'
-CMAKE_INSTALL_PREFIX = '/home/federico/rosjava/install'
-CMAKE_SOURCE_DIR = '/home/federico/rosjava/src'
+CMAKE_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build'
+CMAKE_CURRENT_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools'
+CMAKE_CURRENT_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools'
+CMAKE_INSTALL_PREFIX = '/home/lucrezia/sofar_ws/src/rosjava/install'
+CMAKE_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src'
 
 PKG_CMAKE_DIR = '${rosjava_build_tools_DIR}'
 
 PROJECT_NAME = 'rosjava_build_tools'
-PROJECT_BINARY_DIR = '/home/federico/rosjava/build/rosjava_build_tools'
-PROJECT_SOURCE_DIR = '/home/federico/rosjava/src/rosjava_build_tools'
+PROJECT_BINARY_DIR = '/home/lucrezia/sofar_ws/src/rosjava/build/rosjava_build_tools'
+PROJECT_SOURCE_DIR = '/home/lucrezia/sofar_ws/src/rosjava/src/rosjava_build_tools'

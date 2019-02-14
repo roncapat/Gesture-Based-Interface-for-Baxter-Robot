@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for gradle-rosjava_core.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/federico/rosjava/build
 include rosjava_core/CMakeFiles/gradle-rosjava_core.dir/progress.make
 
 rosjava_core/CMakeFiles/gradle-rosjava_core:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for rosjava_core"
-	cd /home/federico/rosjava/src/rosjava_core && ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/federico/rosjava/build/catkin_generated/env_cached.sh /home/federico/rosjava/src/rosjava_core/gradlew -q publish installDist
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Gradling tasks for rosjava_core"
+	cd /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core && ROS_MAVEN_DEPLOYMENT_REPOSITORY=/home/lucrezia/sofar_ws/src/rosjava/devel/share/maven ROS_MAVEN_REPOSITORY=https://github.com/rosjava/rosjava_mvn_repo/raw/master /home/lucrezia/sofar_ws/src/rosjava/build/catkin_generated/env_cached.sh /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core/gradlew -q publish installDist
 
 gradle-rosjava_core: rosjava_core/CMakeFiles/gradle-rosjava_core
 gradle-rosjava_core: rosjava_core/CMakeFiles/gradle-rosjava_core.dir/build.make
@@ -68,10 +68,10 @@ rosjava_core/CMakeFiles/gradle-rosjava_core.dir/build: gradle-rosjava_core
 .PHONY : rosjava_core/CMakeFiles/gradle-rosjava_core.dir/build
 
 rosjava_core/CMakeFiles/gradle-rosjava_core.dir/clean:
-	cd /home/federico/rosjava/build/rosjava_core && $(CMAKE_COMMAND) -P CMakeFiles/gradle-rosjava_core.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core && $(CMAKE_COMMAND) -P CMakeFiles/gradle-rosjava_core.dir/cmake_clean.cmake
 .PHONY : rosjava_core/CMakeFiles/gradle-rosjava_core.dir/clean
 
 rosjava_core/CMakeFiles/gradle-rosjava_core.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/rosjava_core /home/federico/rosjava/build /home/federico/rosjava/build/rosjava_core /home/federico/rosjava/build/rosjava_core/CMakeFiles/gradle-rosjava_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core/CMakeFiles/gradle-rosjava_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosjava_core/CMakeFiles/gradle-rosjava_core.dir/depend
 

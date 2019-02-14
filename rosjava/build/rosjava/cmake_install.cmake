@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/rosjava
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/rosjava
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava" TYPE FILE FILES "/home/federico/rosjava/src/rosjava/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rosjava" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/rosjava/package.xml")
 endif()
 

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "android_core"
-PROJECT_SPACE_DIR = "/home/federico/rosjava/install"
+PROJECT_SPACE_DIR = "/home/lucrezia/sofar_ws/src/rosjava/install"
 PROJECT_VERSION = "0.4.0"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for gradle-clean-rosjava_bootstrap.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/federico/rosjava/build
 include rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/progress.make
 
 rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/federico/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning gradle project for rosjava_bootstrap"
-	cd /home/federico/rosjava/src/rosjava_bootstrap && /home/federico/rosjava/build/catkin_generated/env_cached.sh /home/federico/rosjava/src/rosjava_bootstrap/gradlew clean
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning gradle project for rosjava_bootstrap"
+	cd /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_bootstrap && /home/lucrezia/sofar_ws/src/rosjava/build/catkin_generated/env_cached.sh /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_bootstrap/gradlew clean
 
 gradle-clean-rosjava_bootstrap: rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap
 gradle-clean-rosjava_bootstrap: rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/build.make
@@ -68,10 +68,10 @@ rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/build: gradle-cl
 .PHONY : rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/build
 
 rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/clean:
-	cd /home/federico/rosjava/build/rosjava_bootstrap && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-rosjava_bootstrap.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_bootstrap && $(CMAKE_COMMAND) -P CMakeFiles/gradle-clean-rosjava_bootstrap.dir/cmake_clean.cmake
 .PHONY : rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/clean
 
 rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/rosjava_bootstrap /home/federico/rosjava/build /home/federico/rosjava/build/rosjava_bootstrap /home/federico/rosjava/build/rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_bootstrap /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_bootstrap /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosjava_bootstrap/CMakeFiles/gradle-clean-rosjava_bootstrap.dir/depend
 

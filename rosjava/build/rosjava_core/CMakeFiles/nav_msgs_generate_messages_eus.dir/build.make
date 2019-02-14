@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for nav_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/build: nav_msgs_gener
 .PHONY : rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 
 rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/clean:
-	cd /home/federico/rosjava/build/rosjava_core && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/clean
 
 rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/rosjava_core /home/federico/rosjava/build /home/federico/rosjava/build/rosjava_core /home/federico/rosjava/build/rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_core /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosjava_core/CMakeFiles/nav_msgs_generate_messages_eus.dir/depend
 

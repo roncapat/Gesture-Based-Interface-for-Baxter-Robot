@@ -1,8 +1,0 @@
-prefix=/home/federico/rosjava/install
-
-Name: rosjava_extras
-Description: Description of rosjava_extras
-Version: 0.3.4
-Cflags: 
-Libs: -L/home/federico/rosjava/install/lib 
-Requires: 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 # Utility rule file for rosjava_test_msgs_gencpp.
 
@@ -63,10 +63,10 @@ rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/build: rosjava_test_ms
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/build
 
 rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/clean:
-	cd /home/federico/rosjava/build/rosjava_test_msgs && $(CMAKE_COMMAND) -P CMakeFiles/rosjava_test_msgs_gencpp.dir/cmake_clean.cmake
+	cd /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs && $(CMAKE_COMMAND) -P CMakeFiles/rosjava_test_msgs_gencpp.dir/cmake_clean.cmake
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/clean
 
 rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/federico/rosjava/src /home/federico/rosjava/src/rosjava_test_msgs /home/federico/rosjava/build /home/federico/rosjava/build/rosjava_test_msgs /home/federico/rosjava/build/rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lucrezia/sofar_ws/src/rosjava/src /home/lucrezia/sofar_ws/src/rosjava/src/rosjava_test_msgs /home/lucrezia/sofar_ws/src/rosjava/build /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs /home/lucrezia/sofar_ws/src/rosjava/build/rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosjava_test_msgs/CMakeFiles/rosjava_test_msgs_gencpp.dir/depend
 

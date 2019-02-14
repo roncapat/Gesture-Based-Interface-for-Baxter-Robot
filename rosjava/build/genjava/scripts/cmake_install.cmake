@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/genjava/scripts
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/genjava/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/genjava" TYPE PROGRAM FILES "/home/federico/rosjava/build/genjava/scripts/catkin_generated/installspace/genjava_gradle_project.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/genjava" TYPE PROGRAM FILES "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/scripts/catkin_generated/installspace/genjava_gradle_project.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/genjava" TYPE PROGRAM FILES "/home/federico/rosjava/build/genjava/scripts/catkin_generated/installspace/genjava_message_artifacts")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/genjava" TYPE PROGRAM FILES "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/scripts/catkin_generated/installspace/genjava_message_artifacts")
 endif()
 

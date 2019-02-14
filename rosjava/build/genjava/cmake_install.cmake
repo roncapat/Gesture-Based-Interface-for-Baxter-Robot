@@ -1,8 +1,8 @@
-# Install script for directory: /home/federico/rosjava/src/genjava
+# Install script for directory: /home/lucrezia/sofar_ws/src/rosjava/src/genjava
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/federico/rosjava/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lucrezia/sofar_ws/src/rosjava/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,38 +38,38 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/federico/rosjava/build/genjava/catkin_generated/installspace/genjava.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/installspace/genjava.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/genjava/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/genjava/catkin_generated/installspace/genjava-extras.cmake"
-    "/home/federico/rosjava/build/genjava/catkin_generated/installspace/genjava-catkin-api.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/installspace/genjava-extras.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/installspace/genjava-catkin-api.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/genjava/cmake" TYPE FILE FILES
-    "/home/federico/rosjava/build/genjava/catkin_generated/installspace/genjavaConfig.cmake"
-    "/home/federico/rosjava/build/genjava/catkin_generated/installspace/genjavaConfig-version.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/installspace/genjavaConfig.cmake"
+    "/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/installspace/genjavaConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/genjava" TYPE FILE FILES "/home/federico/rosjava/src/genjava/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/genjava" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/src/genjava/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/federico/rosjava/build/genjava/catkin_generated/safe_execute_install.cmake")
+  include("/home/lucrezia/sofar_ws/src/rosjava/build/genjava/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/ros/genmsg" TYPE FILE FILES "/home/federico/rosjava/devel/etc/ros/genmsg/genjava")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/etc/ros/genmsg" TYPE FILE FILES "/home/lucrezia/sofar_ws/src/rosjava/devel/etc/ros/genmsg/genjava")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/federico/rosjava/build/genjava/scripts/cmake_install.cmake")
+  include("/home/lucrezia/sofar_ws/src/rosjava/build/genjava/scripts/cmake_install.cmake")
 
 endif()
 

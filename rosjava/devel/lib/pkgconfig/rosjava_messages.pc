@@ -1,8 +1,8 @@
-prefix=/home/federico/rosjava/devel
+prefix=/home/lucrezia/sofar_ws/src/rosjava/devel
 
 Name: rosjava_messages
 Description: Description of rosjava_messages
 Version: 0.3.0
 Cflags: 
-Libs: -L/home/federico/rosjava/devel/lib 
+Libs: -L/home/lucrezia/sofar_ws/src/rosjava/devel/lib 
 Requires: 

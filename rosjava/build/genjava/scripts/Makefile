@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/federico/rosjava/src
+CMAKE_SOURCE_DIR = /home/lucrezia/sofar_ws/src/rosjava/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/federico/rosjava/build
+CMAKE_BINARY_DIR = /home/lucrezia/sofar_ws/src/rosjava/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/federico/rosjava/build/CMakeFiles /home/federico/rosjava/build/genjava/scripts/CMakeFiles/progress.marks
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/federico/rosjava/build/CMakeFiles 0
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles /home/lucrezia/sofar_ws/src/rosjava/build/genjava/scripts/CMakeFiles/progress.marks
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lucrezia/sofar_ws/src/rosjava/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/clean
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/preinstall
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/federico/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/preinstall
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(MAKE) -f CMakeFiles/Makefile2 genjava/scripts/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/federico/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lucrezia/sofar_ws/src/rosjava/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
