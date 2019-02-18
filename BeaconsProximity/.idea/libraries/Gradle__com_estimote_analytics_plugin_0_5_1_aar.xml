@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.estimote:analytics-plugin:0.5.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.5.1.aar/0ec80aaeb2953b6c878506e9713c5543/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.5.1.aar/0ec80aaeb2953b6c878506e9713c5543/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.5.1.aar/73e3e219b12a3d58e45e75234d30d4c9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-plugin-0.5.1.aar/73e3e219b12a3d58e45e75234d30d4c9/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
