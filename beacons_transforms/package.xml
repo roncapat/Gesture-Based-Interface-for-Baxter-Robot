@@ -7,7 +7,7 @@
 	<maintainer email="marco.lapolla5@gmail.com">Marco Lapolla</maintainer>
 	<maintainer email="marta.lago@hotmail.it">Marta Lagomarsino</maintainer>
 
-	<license>GNU</license>
+	<license>GPLv3</license>
 
 	<author email="marco.lapolla5@gmail.com">Marco Lapolla</author>
 	<author email="marta.lago@hotmail.it">Marta Lagomarsino</author>
@@ -34,6 +34,7 @@
 	<run_depend>laser_geometry</run_depend>
 	<run_depend>tf</run_depend> 
 	<run_depend>visualization_msgs</run_depend> 
+
 	<export>
 		<!-- Other tools can request additional information be placed here -->
 	</export>

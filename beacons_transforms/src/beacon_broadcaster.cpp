@@ -134,7 +134,7 @@ main(int argc, char** argv)
 	std::stringstream beacon_full_name;
 	beacon_full_name << "beacon/" << beacon_color;
 	
-	// Advertise Services
+	// advertise services
 	ros::ServiceServer service = n.advertiseService("move_beacon", move);
 	ros::ServiceServer service2 = n.advertiseService("set_beacon_radius", set_radius);
 	
@@ -204,6 +204,6 @@ main(int argc, char** argv)
 		ros::spinOnce();
 		r.sleep();
 	}
-
-    return 0;
+  
+  return 0;
 }

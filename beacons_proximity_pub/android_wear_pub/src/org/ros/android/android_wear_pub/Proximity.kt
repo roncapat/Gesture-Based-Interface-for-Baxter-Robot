@@ -105,7 +105,7 @@ class Proximity(): RosActivity("Pubsub Tutorial", "Pubsub Tutorial",
                 }
                 .onExit{
                     Log.d("Debug.. ", "Previously you were near the violet beacon")
-                    violet.text = "Previously you were violet beacon"
+                    violet.text = "Previously you were near violet beacon"
                     talkerViolet?.presence = false
                 }
                 .build()
