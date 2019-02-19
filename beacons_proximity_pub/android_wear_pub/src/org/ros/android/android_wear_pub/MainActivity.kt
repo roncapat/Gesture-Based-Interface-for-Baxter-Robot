@@ -3,6 +3,7 @@ package org.ros.android.android_wear_pub
 import android.content.Intent
 import android.os.Bundle
 import android.support.wearable.activity.WearableActivity
+import com.estimote.proximity_sdk.api.TriggerBroadcastReceiver.Companion.createIntent
 
 class MainActivity: WearableActivity() {
 
@@ -10,9 +11,7 @@ class MainActivity: WearableActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //check why doesn't work
-        val intent = Intent(this, Proximity::class.java)
-        startActivity(intent)
-        finish()
+        val intent = Intent(this@MainActivity,Proximity::class.java);
+        startActivity(intent);
     }
 }

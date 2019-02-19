@@ -23,7 +23,15 @@ public class Speaker extends AbstractNodeMain {
     }
 
     public GraphName getDefaultNodeName() {
-        return GraphName.of("android_tutorial_pubsub/talker");
+        String nodeName = null;
+        if(this.topicName == "/beacon/pink/presence")
+            nodeName = "talkerPink";
+        if(this.topicName == "/beacon/yellow/presence")
+            nodeName = "talkerYellow";
+        if(this.topicName == "/beacon/violet/presence")
+            nodeName = "talkerViolet";
+
+        return GraphName.of("android_wear_pub/talkerPink");
     }
 
     public void onStart(ConnectedNode connectedNode) {
@@ -38,8 +46,8 @@ public class Speaker extends AbstractNodeMain {
             protected void loop() throws InterruptedException {
                 std_msgs.String str = (std_msgs.String)publisher.newMessage();
                 if(presence){
-                    str.setData("Presence!" + this.sequenceNumber);
-                    Log.d("Debug.. ", "Published presence message");
+                    str.setData("Presence in: " + topicName + this.sequenceNumber);
+                    Log.d("Debug.. ", "Published presence message in: " + topicName + this.sequenceNumber);
                     publisher.publish(str);
                 }
                 ++this.sequenceNumber;
